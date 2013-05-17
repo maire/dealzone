@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+STEAM DEALS!!!!! <br><br>
+{% for deal in deals %}
+{{ deal.name }} for {{ deal.new_price }} (original price: {{ deal.orig_price }})<br>
+{% endfor %}
+</body>
+</html>
